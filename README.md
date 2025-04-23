@@ -70,7 +70,7 @@ This action closes the related issue when a pull request is merged.
 
 | Name           | Required | Default | Description                              |
 | -------------- | -------- | ------- | ---------------------------------------- |
-| `github_token` | ✅ Yes   | –       | GitHub Token (e.g., PAT or GITHUB_TOKEN) |
+| `github_token` | Yes      | –       | GitHub Token (e.g., PAT or GITHUB_TOKEN) |
 
 ---
 
