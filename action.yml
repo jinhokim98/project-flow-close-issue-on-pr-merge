@@ -1,0 +1,15 @@
+name: 'project-flow-close-issue-on-pr-merge'
+description: 'PR이 머지되면 관련된 이슈를 close 합니다.'
+
+branding:
+  icon: git-merge
+  color: blue
+
+inputs:
+  github_token:
+    description: 'GitHub Token'
+    required: true
+
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
